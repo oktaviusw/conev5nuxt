@@ -1,0 +1,49 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "json-server",
+            "author": "typicode"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    },
+    "menuItems": [
+        {
+            "id" : "1",
+            "route_link": "/",
+            "menuItems": [
+                {
+                    "link": "/",
+                    "name": "To Home We go"
+                },
+                {
+                    "link": "/route_1",
+                    "name": "Route 001"
+                }
+            ]
+        },
+        {
+            "id" : "2",
+            "route_link": "/route_1",
+            "menuItems": [
+                {
+                    "link": "/route_1",
+                    "name": "Route 001"
+                },
+                {
+                    "link": "/route_2",
+                    "name": "Route 002"
+                }
+            ]
+        }
+    ]
+}
